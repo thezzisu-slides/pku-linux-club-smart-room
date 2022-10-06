@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://photo.pku.edu.cn/Uploads/Bdtpw/Picture/2022/04/18/s625cd2ca9508f.jpg
 colorSchema: light
 routerMode: hash
 highlighter: shiki
@@ -13,11 +13,12 @@ drawings:
   persist: false
 
 class: 'text-center'
+css: unocss
 ---
 
 # Smart Room & Compute Cluster
 
-Share of the setup of my dorm room
+A low-cost and scalascalable solution to build personal compute infrastructure
 
 ##### by @thezzisu
 
@@ -35,3 +36,29 @@ Share of the setup of my dorm room
 </div>
 
 <!-- -->
+
+---
+
+# Outline
+A low-cost and scalascalable solution to build personal compute infrastructure
+
+In this presentation, I'll introduce the current solution used by myself:
+
+- Networking
+- Device
+- Operating System
+- Application Runtime
+- Application
+
+Also, I'll share the future plan (Coming Soon ™).
+
+---
+layout: image-right
+image: https://photo.pku.edu.cn/Uploads/Bdtpw/Picture/2022/04/18/s625cd2f03daae.jpg
+---
+
+<div class="abs-tl m-12">
+  <div class="text-2xl font-bold">Section 1</div>
+  <h1 class="text-4xl!">Networking</h1>
+</div>
+
