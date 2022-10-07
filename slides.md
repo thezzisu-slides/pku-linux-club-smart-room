@@ -14,6 +14,7 @@ drawings:
 
 class: 'text-center'
 css: unocss
+download: true
 ---
 
 # Smart Room & Compute Cluster
@@ -45,7 +46,6 @@ A low-cost and scalascalable solution to build personal compute infrastructure
 In this presentation, I'll introduce the current solution used by myself:
 
 - Networking
-- Device
 - Operating System
 - Application Runtime
 - Application
@@ -53,12 +53,31 @@ In this presentation, I'll introduce the current solution used by myself:
 Also, I'll share the future plan (Coming Soon ™).
 
 ---
-layout: image-right
-image: https://photo.pku.edu.cn/Uploads/Bdtpw/Picture/2022/04/18/s625cd2f03daae.jpg
+src: ./network.md
 ---
 
-<div class="abs-tl m-12">
-  <div class="text-2xl font-bold">Section 1</div>
-  <h1 class="text-4xl!">Networking</h1>
-</div>
+---
+src: ./os.md
+---
 
+---
+src: ./runtime.md
+---
+
+---
+src: ./app.md
+---
+
+---
+layout: cover
+background: https://photo.pku.edu.cn/Uploads/Bdtpw/Picture/2021/11/08/s6188dc6d842cd.jpg
+---
+
+# Thanks for watching!
+## Presented by [thezzisu](github.com/thezzisu)
+
+<div class="abs-bl w-full flex justify-center">
+  <div class="text-sm font-mono">
+    <div>Copyright @thezzisu, MIT Licence.</div>
+  </div>
+</div>
